@@ -3,7 +3,7 @@ import csv
 
 user_id = "<<user_id>>" #user id
 your_okta_domain = "<<okta_domain>>" #okta domain
-api_token = "<<api_token>>" #api token verisk.okta.com
+api_token = "<<api_token>>" #api token of the okta domain
 
 with open("./oktagroups.csv", 'r') as file: #csv name and path can be renamed
   group_list = csv.reader(file)
